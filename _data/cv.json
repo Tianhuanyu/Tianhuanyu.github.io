@@ -1,152 +1,274 @@
 {
   "basics": {
     "name": "Huanyu Tian",
+    "label": "Postdoctoral Research Associate in Surgical & Interventional Engineering",
     "email": "huanyu.tian@kcl.ac.uk",
-    "phone": "",
-    "website": "https://Tianhuanyu.github.io",
-    "summary": "Currently employed at King's College London as a Research Associate.",
+    "phone": "+44 7717 602251",
+    "website": "https://tianhuanyu.github.io",
+    "summary": "Researcher in surgical autonomy, robot learning, shared autonomy, and vision-guided manipulation at King's College London.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "London, UK",
-      "countryCode": "US",
-      "region": ""
+      "city": "London",
+      "countryCode": "GB",
+      "region": "UK"
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=a9fHxksAAAAJ"
       },
       {
         "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "username": "0000-0001-5099-7791",
+        "url": "https://orcid.org/0000-0001-5099-7791"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "Tianhuanyu",
+        "url": "https://github.com/Tianhuanyu"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "King's College London",
+      "position": "Postdoctoral Research Associate, Surgical & Interventional Engineering",
+      "startDate": "2024-09",
+      "endDate": "Present",
+      "summary": "Surgical robot autonomy and vision-guided micromanipulation.",
+      "highlights": []
+    },
+    {
+      "company": "Conceivable Life Sciences",
+      "position": "Consultant, AI for Microscopy Images",
+      "startDate": "2026-05",
+      "endDate": "Present",
+      "summary": "Foundation-model training for microscopy images in the life sciences.",
+      "highlights": []
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "King's College London",
+      "area": "Visiting Ph.D., Biomedical Science",
+      "studyType": "Visiting Ph.D.",
+      "startDate": "2023-02",
+      "endDate": "2024-02",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
+      "institution": "Beijing Institute of Technology",
+      "area": "Medical Robot",
+      "studyType": "Ph.D. of Engineering",
+      "startDate": "2018-09",
+      "endDate": "2024-06",
       "gpa": null,
-      "courses": []
+      "courses": [
+        "Advanced Robotics",
+        "Computer Vision",
+        "Stochastic Process",
+        "Sensor System",
+        "Optimal Control",
+        "Deep Reinforcement Learning"
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "institution": "Beijing Institute of Technology",
+      "area": "Mechatronics Engineering",
+      "studyType": "B.Eng.",
+      "startDate": "2014-09",
+      "endDate": "2018-06",
       "gpa": null,
-      "courses": []
+      "courses": [
+        "Robotics",
+        "Theoretical Mechanics",
+        "Machine Learning",
+        "Dynamics of Controlled Systems",
+        "Signal Processing",
+        "Mechanical Design"
+      ]
     }
   ],
   "skills": [],
   "languages": [],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Embodied Surgical Intelligence",
+      "keywords": [
+        "Autonomous manipulation",
+        "Safety-aware interaction",
+        "Contact-rich surgical environments"
+      ]
+    },
+    {
+      "name": "Shared Autonomy and Physical Human–Robot Interaction",
+      "keywords": [
+        "Haptic guidance",
+        "Active virtual fixtures",
+        "Microsurgical intervention"
+      ]
+    },
+    {
+      "name": "Robot Vision and Navigation",
+      "keywords": [
+        "Visuomotor coordination",
+        "System calibration",
+        "Multimodal sensor fusion"
+      ]
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Learning From a Steady Hand: A Weakly Supervised Agent for Robot Assistance under Microscopy",
+      "publisher": "IEEE Transactions on Robotics",
+      "releaseDate": "2026",
+      "website": "https://arxiv.org/abs/2601.20776",
+      "summary": "H. Tian et al."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Semi-Autonomous Laparoscopic Robot Docking with Learned Hand-Eye Information Fusion",
+      "publisher": "IEEE Transactions on Biomedical Engineering",
+      "releaseDate": "2025",
+      "website": "https://doi.org/10.1109/TBME.2025.3550974",
+      "summary": "H. Tian et al."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "High-Precision RCM Motion for Ophthalmic Robotics via Hierarchical QP Control and Authority-Guided Recovery Planning",
+      "publisher": "IEEE International Conference on Robotics and Automation (under review)",
+      "releaseDate": "2026",
+      "website": "https://arxiv.org/abs/2610.27905",
+      "summary": "H. Tian et al."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Virtual-Fixtures Based Shared Control Method for Curve-Cutting With a Reciprocating Saw in Robot-Assisted Osteotomy",
+      "publisher": "IEEE Transactions on Automation Science and Engineering",
+      "releaseDate": "2023",
+      "website": "https://doi.org/10.1109/TASE.2023.3252625",
+      "summary": "H. Tian et al."
+    },
+    {
+      "name": "Virtual-Fixture-Based Osteotomy Shared Control: A Framework for Human-Robot Shared Surgical Osteotomy Manipulation",
+      "publisher": "IEEE Transactions on Medical Robotics and Bionics",
+      "releaseDate": "2023",
+      "website": "https://doi.org/10.1109/TMRB.2023.3320520",
+      "summary": "H. Tian et al."
+    },
+    {
+      "name": "Uncertainty-Aware Shared Control for Vision-Based Micromanipulation",
+      "publisher": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "releaseDate": "2025",
+      "website": "",
+      "summary": "H. Tian et al."
+    },
+    {
+      "name": "Excitation Trajectory Optimization for Dynamic Parameter Identification Using Virtual Constraints in Hands-on Robotic System",
+      "publisher": "IEEE International Conference on Robotics and Automation (ICRA)",
+      "releaseDate": "2024",
+      "website": "https://doi.org/10.1109/ICRA57147.2024.10610950",
+      "summary": "H. Tian et al."
+    },
+    {
+      "name": "Virtual-Fixture Based Drilling Control for Robot-Assisted Craniotomy: Learning From Demonstration",
+      "publisher": "IEEE Robotics and Automation Letters",
+      "releaseDate": "2021",
+      "website": "https://doi.org/10.1109/LRA.2021.3061388",
+      "summary": "X. Duan, H. Tian et al."
+    },
+    {
+      "name": "Design and Experimental Validation of a Robotic System for Reactor Core Detector Removal",
+      "publisher": "IEEE International Conference on Robotics and Automation (ICRA)",
+      "releaseDate": "2021",
+      "website": "https://doi.org/10.1109/ICRA48506.2021.9560847",
+      "summary": "Z. Han, H. Tian et al."
+    },
+    {
+      "name": "A Respiratory Motion Prediction Method Based on LSTM-AE with Attention Mechanism for Spine Surgery",
+      "publisher": "Cyborg and Bionic Systems",
+      "releaseDate": "2024",
+      "website": "https://doi.org/10.34133/cbsystems.0063",
+      "summary": "Z. Han, H. Tian et al."
+    },
+    {
+      "name": "Collaborative Human-Robot Surgery for Mandibular Angle Split Osteotomy: Optical Tracking Based Approach",
+      "publisher": "Biomedical Signal Processing and Control",
+      "releaseDate": "2024",
+      "website": "https://doi.org/10.1016/j.bspc.2024.106173",
+      "summary": "Z. Han, H. Tian et al."
+    },
+    {
+      "name": "Hydra: Marker-Free RGB-D Hand-Eye Calibration",
+      "publisher": "arXiv",
+      "releaseDate": "2025",
+      "website": "https://arxiv.org/abs/2504.20584",
+      "summary": "M. Huber, H. Tian et al."
+    },
+    {
+      "name": "ROBUST-MIPS: A Combined Skeletal Pose and Instance Segmentation Dataset for Laparoscopic Surgical Instruments",
+      "publisher": "Scientific Data",
+      "releaseDate": "2026",
+      "website": "https://doi.org/10.1038/s41597-026-06938-5",
+      "summary": "Z. Han, C. Budd, G. Zhang, H. Tian et al."
+    },
+    {
+      "name": "Reconfigurable Cable-Driven Parallel Robot with Adjustable Workspace Towards Positioning in Neurosurgery: A Preliminary Design",
+      "publisher": "IEEE International Conference on Real-time Computing and Robotics (RCAR)",
+      "releaseDate": "2021",
+      "website": "https://doi.org/10.1109/RCAR52367.2021.9517400",
+      "summary": "C. Li et al., H. Tian, X. Duan. Best Paper Finalist Award."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
+      "name": "Quantified Precision and Reduced Workload Using Vision-Guided Robotic Micropipette Tracking During Oocyte and Embryo Handling: Foundational Validation for Assisted Reproductive Technology Laboratory Automation",
+      "event": "ESHRE 2026 — Oral Presentation (O-264)",
+      "date": "2026",
+      "location": "",
       "description": ""
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
+      "name": "Weakly Supervised Depth Estimation and Control of a Micropipette",
+      "event": "CRAS 2026 — Oral Presentation",
+      "date": "2026",
+      "location": "",
       "description": ""
     }
   ],
-  "teaching": [
+  "awards": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "title": "Bota Systems Research Sponsorship",
+      "date": "2026-02"
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "title": "NVIDIA Academic Grant Program",
+      "date": "2026-05"
+    },
+    {
+      "title": "Outstanding Doctoral Dissertation Award, Beijing Institute of Technology",
+      "date": "2024-06"
+    },
+    {
+      "title": "Best Student Paper Award, 12th IEEE International Conference on CYBER",
+      "date": "2022-06"
+    },
+    {
+      "title": "Dream Chasing Scholarship, Beijing Institute of Technology",
+      "date": "2023–2024"
+    },
+    {
+      "title": "Third Prize, Samsung Solve for Tomorrow Competition (China)",
+      "date": "2017-11"
     }
   ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "service": [
+    "Associate Editor, Mechanisms, Design, and Control Track, ICRA 2027",
+    "Workshop Organizer, Embracing Intelligent Robotic Assistants for Robot-Assisted Surgery in the Era of Embodied Intelligence, ICRA 2026",
+    "Journal Reviewer: IEEE T-ASE, IEEE/ASME T-MECH, Information Fusion, IEEE RA-L, and Field Robotics",
+    "Conference Reviewer: ICRA, IROS, and BioRob"
+  ],
+  "teaching": [],
+  "portfolio": []
 }

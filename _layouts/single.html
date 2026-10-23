@@ -36,6 +36,10 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif page.collection == 'publications' and page.status %}
+          <p>{{ page.status }}{% if page.venue %} for <i>{{ page.venue }}</i>{% endif %}{% if page.year %}, {{ page.year }}{% endif %}</p>
+        {% elsif page.collection == 'publications' and page.year %}
+          <p>Published in <i>{{ page.venue }}</i>, {{ page.year }}</p>
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
@@ -45,6 +49,16 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        {% if page.collection == 'publications' and page.image %}
+          <figure class="publication-hero">
+            <img src="{{ page.image | prepend: base_path }}" alt="{{ page.image_alt | default: page.title | escape }}">
+            {% if page.image_caption or page.image_credit_url %}
+              <figcaption>
+                {{ page.image_caption }}{% if page.image_credit_url %} <a href="{{ page.image_credit_url }}">Source</a>{% endif %}
+              </figcaption>
+            {% endif %}
+          </figure>
+        {% endif %}
         {{ content }}
 
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}

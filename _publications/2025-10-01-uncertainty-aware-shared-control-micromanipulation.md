@@ -5,7 +5,6 @@ permalink: /publication/2025-iros-uncertainty-aware-shared-control
 excerpt: 'Combines probabilistic perception with shared autonomy to stabilize micromanipulation under vision uncertainty.'
 date: 2025-10-01
 venue: 'IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)'
-paperurl: ''
 citation: 'H. Tian, Z. Han, M. Huber, C. E. Mower, C. Li, X. Duan, and C. Bergeles, "Uncertainty-Aware Shared Control for Vision-Based Micromanipulation," in Proc. IEEE/RSJ Int. Conf. Intelligent Robots and Systems (IROS), 2025.'
 ---
 
