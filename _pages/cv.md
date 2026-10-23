@@ -37,7 +37,7 @@ Publications
 ======
 1. **H. Tian**, et al. “Learning From a Steady Hand: A Weakly Supervised Agent for Robot Assistance under Microscopy.” *IEEE Transactions on Robotics*, 2026.
 2. **H. Tian**, et al. “Semi-Autonomous Laparoscopic Robot Docking with Learned Hand-Eye Information Fusion.” *IEEE Transactions on Biomedical Engineering*, 2025.
-3. **H. Tian**, et al. “High-Precision RCM Motion for Ophthalmic Robotics via Hierarchical QP Control and Authority-Guided Recovery Planning.” *IEEE International Conference on Robotics and Automation* (under review).
+3. **H. Tian**, et al. “High-Precision RCM Motion for Ophthalmic Robotics via Hierarchical QP Control and Authority-Guided Recovery Planning.” *arXiv:2610.27905*, 2026.
 4. **H. Tian**, et al. “Virtual-Fixtures Based Shared Control Method for Curve-Cutting With a Reciprocating Saw in Robot-Assisted Osteotomy.” *IEEE Transactions on Automation Science and Engineering*, 2023.
 5. **H. Tian**, et al. “Virtual-Fixture-Based Osteotomy Shared Control: A Framework for Human-Robot Shared Surgical Osteotomy Manipulation.” *IEEE Transactions on Medical Robotics and Bionics*, 2023.
 6. **H. Tian**, et al. “Uncertainty-Aware Shared Control for Vision-Based Micromanipulation.” *IEEE/RSJ International Conference on Intelligent Robots and Systems* (IROS), 2025.
